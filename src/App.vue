@@ -45,6 +45,9 @@ export default {
   height: 350px;
   margin: 5px;
   padding: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .keyboard {
@@ -71,5 +74,11 @@ export default {
   margin:5px;
   padding: 5px;
   text-align: left;
+}
+.pages-list{
+  text-align: left;
+}
+.page-item{
+  cursor:pointer;
 }
 </style>
