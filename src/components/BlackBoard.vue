@@ -27,7 +27,7 @@
         <button id="btn3" @click="changeSizeDown()">- Size</button>
         <button @click="addPage()">Save Page</button>
         <button @click="newPage()">New Page</button>
-        <button @click="goToUrl('about')">Learn More</button>
+        <button @click="goToUrl('contact')">Learn More</button>
       </div>
       <AboutView/>
     </div>
@@ -90,7 +90,6 @@ export default {
     goToPage ( id ) {
       var page = this.pages[id];
       this.message = page.message;
-      //this.pageCount = id;
       console.log("list item clicked" + id );
     },
     goToUrl ( page ){
