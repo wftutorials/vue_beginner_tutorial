@@ -43,3 +43,13 @@ npm run dev
 
 
 ### Topics Covered
+
+- Vue Cli
+- Application Structure
+- Routing
+- Single File Components
+- Templating
+- Declarative Rendering
+- Binding Attributes
+- Methods and Computed Properties
+- Child Components
